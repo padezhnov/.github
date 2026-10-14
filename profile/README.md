@@ -4,12 +4,12 @@ Small, readable add-ons for [Claude Code](https://code.claude.com), built for a 
 
 | | |
 |---|---|
-| [**claude-code-mods**](https://github.com/padezhnov/claude-code-mods) | `anti-slop` — no narrating comments or stock phrases · `native-edits` — file changes through Edit, so `/rewind` can undo them |
+| [**claude-code-mods**](https://github.com/padezhnov/claude-code-mods) | `native-edits` — file changes through Edit, so `/rewind` can undo them · `anti-slop` — flags comments that narrate the edit, drops stock openers |
 
 ```
 /plugin marketplace add padezhnov/claude-code-mods
 ```
 
-Every mod: no network, no telemetry, a few small files you can read before installing.
+No network, no telemetry, code you can read before installing.
 
-Writing: [padezhnov.com](https://padezhnov.com/en/blog/)
+What each plugin does, with before/after and install steps: [padezhnov.com/en/tools](https://padezhnov.com/en/tools/) · Field notes on running Claude Code agents: [padezhnov.com/en/blog](https://padezhnov.com/en/blog/)
